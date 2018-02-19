@@ -1,0 +1,24 @@
+{
+  "name": "lottery-listener",
+  "version": "1.0.0",
+  "description": "彩票监工",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuigeng/lottery-listener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuigeng/lottery-listener/issues"
+  },
+  "homepage": "https://github.com/chuigeng/lottery-listener#readme",
+  "dependencies": {
+    "cron": "1.3.0",
+    "request": "2.83.0",
+    "request-promise": "4.2.2"
+  }
+}
