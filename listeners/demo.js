@@ -1,4 +1,4 @@
-const Listener = require('../lib/Listener');
+const Listener = require('../lib/listener');
 
 class DemoListener extends Listener {
 
