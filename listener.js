@@ -11,7 +11,8 @@ program
 
 const Listener = require(path.resolve(__dirname, 'listeners', program.listener));
 const listener = new Listener({
-  cron: program.cron
+  cron: program.cron,
+  name: program.listener
 });
 
 if (program.action === 'stop') {
