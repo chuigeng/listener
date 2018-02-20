@@ -1,13 +1,10 @@
 # lottery-listener
 
-彩票监听
+基于 [Cron](https://www.npmjs.com/package/cron) 实现的定时任务管理器。
 
 ## 简介
-对彩票开奖结果进行监听和提醒。  
 
-基于 [Cron](https://www.npmjs.com/package/cron) 实现。Cron 可以创建定时任务并进行 start 和 stop 操作，但是如果定时任务启动后作为守护进程运行，stop 就不是很方便了，所以对 Cron 进行了包装，方便对任务进行启动和停止。  
-
-其实可以把该项目抽象成 Cron 管理器。以后有用到其他场景再做抽象。记个仿佛不会做的 [TODO](https://github.com/chuigeng/lottery-listener/issues/1)。
+基于 [Cron](https://www.npmjs.com/package/cron) 实现。Cron 可以创建定时任务并进行 start 和 stop 操作，但是如果定时任务启动后作为守护进程运行，stop 就不是很方便了，所以对 Cron 进行了包装，方便对任务进行启动和停止。
 
 ## 使用
 ### 文件结构
